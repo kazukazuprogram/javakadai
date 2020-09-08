@@ -4,7 +4,7 @@ sample = 1
 all: compile run clean
 
 compile:
-	javac $(target).java
+	javac $(target)_nostdin.java
 
 run:
 	java Main < $(target)_$(sample).txt
