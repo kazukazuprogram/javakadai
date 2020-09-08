@@ -10,4 +10,4 @@ run:
 	java Main < $(target)_$(sample).txt
 
 clean:
-	del Main.class
+	rm Main.class
