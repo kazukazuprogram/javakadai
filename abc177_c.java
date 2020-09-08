@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) throws IOException {
-    var br = new BufferedReader(new InputStreamReader(System.in));
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int a[] = new int[n];
